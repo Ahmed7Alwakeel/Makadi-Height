@@ -1,0 +1,20 @@
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    margin-left: 8px;
+    border-radius: 50%;
+    background-color: #4b494966;
+
+}
+
+img {
+    margin-top: 30px;
+    height: 550px;
+    max-width: auto;
+
+}
+
+.carousel {
+    position: relative;
+    height: 630px;
+}

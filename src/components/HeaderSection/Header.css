@@ -1,0 +1,59 @@
+.bg-img {
+
+    background-image: url(./img/Makadi_Heights_Render1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+}
+.layer{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #21436E 85.42%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+   
+}
+.bottom_img {
+    height: 330px;
+    max-width: auto;
+}
+
+@media(max-width:1200px) {
+    .bottom_img {
+        height: 320px;
+        max-width: 290px;
+    }
+
+}
+
+@media(max-width:600px) {
+    .bottom_img {
+        height: 200px;
+        max-width: auto
+    }
+
+}
+
+.nav__circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.nav__temp-circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: relative;
+    left: 15px;
+    top: 3px;
+}
+.header__h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400, Regular;
+}
+.header__p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color:#e6e1e1;
+}
