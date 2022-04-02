@@ -1,2 +1,2 @@
 # Makadi-Heights
-###### simple ui using React JS & Context & Weather API
+###### Simple UI using React JS & Context & Weather API
